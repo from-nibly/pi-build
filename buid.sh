@@ -24,7 +24,7 @@ else
 	sed "s/'-msse2' , //g" < ~/workspace/cloud9/node_modules/libxml/support/o3/wscript > ~/workspace/cloud9/node_modules/libxml/support/o3/wscript
 	cd ~/workspace/cloud9/node_modules/libxml
 	sudo npm install -g
-	cd ~/cloud9
+	cd ~/workspace/cloud9
 	sudo npm install
 	rm -r ./node_modules/vfs-local
 	npm install vfs-local@0.3.4
